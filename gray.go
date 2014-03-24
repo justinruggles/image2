@@ -4,7 +4,7 @@ import (
     "image"
     "image/color"
 
-    color2 "image2/color"
+    "github.com/justinruggles/image2/color2"
 )
 
 /*****************************************************************************/
@@ -41,7 +41,7 @@ func (p *GrayNA) Set(x, y int, c color.Color) {
     p.Pix[i+1] = c1.A
 }
 
-func (p *GrayNA) SetGrayNA(x, y int, c color2.GrayNAColor) {
+func (p *GrayNA) SetGrayNA(x, y int, c color2.GrayNA) {
     if !(image.Point{x, y}.In(p.Rect)) {
         return
     }

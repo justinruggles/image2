@@ -4,7 +4,7 @@ import (
     "image"
     "image/color"
 
-    color2 "image2/color"
+    "github.com/justinruggles/image2/color2"
 )
 
 /*****************************************************************************/

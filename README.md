@@ -11,4 +11,4 @@ to write them myself.
 There are 2 packages:
 [image2](http://godoc.org/github.com/justinruggles/image2)
 and
-[image2/color](http://godoc.org/github.com/justinruggles/image2/color)
+[image2/color2](http://godoc.org/github.com/justinruggles/image2/color2)
