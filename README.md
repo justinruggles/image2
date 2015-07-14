@@ -6,6 +6,8 @@ I was quite surprised when I found that the Go image package does not have any
 RGB image types without alpha. Also, it lacks grayscale with alpha. So I decided
 to write them myself.
 
+Then I noticed also BGRA is missing, so I added that too.
+
 ### API Documentation ###
 
 There are 2 packages:
